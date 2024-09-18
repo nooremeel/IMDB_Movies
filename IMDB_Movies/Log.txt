@@ -1,0 +1,26 @@
+1. Data cleaning using python
+	1.1 import data into dataframe
+	1.2 Remove commas from Gross and change its data type to numeric
+	1.3 Remove 'min' from runtime and change the data type to numeric
+	1.4 Replace the wrong value in the release year of 'Apollo 13' with 	the correct '1995' and change the data type to numeric
+	1.5 Replace null values
+		1.5.1 Replace nulls in 'Certificate' with 'Unknown'
+		1.5.2 Replace nulls in 'Meta_score' with 0
+		1.5.3 Replace nulls in 'Gross' with the mean
+	1.6 Remove whitespaces in the Genre column
+
+2. Visualization and modeling using Power BI
+	2.1 Modeling
+		2.1.1 Load data into Power BI
+		2.1.2 Use Power Query to split the genres column
+		2.1.3 Create a new column 'Movie_ID' by merging Series title 		and release year
+		2.1.4 create a new table containing Movie ID and genres
+		2.1.5 create a one-to-many relationship between the new table 		and the original table using Movie_ID
+	2.2 Visualization
+		2.2.1 Create a bar chart to show the number of movies per 		genre
+		2.2.2 Create a column chart to show the Highest grossing 		movie of each year
+		2.2.3 Create a histogram to show the most popular movie 		runtimes
+		2.2.4 Create a bar chart to show the top average rating of
+		directors
+		2.2.5 Create a line chart to show the number of votes and how 		it changed over the years	
+		2.2.6 Create a dashboard with charts and slicers
